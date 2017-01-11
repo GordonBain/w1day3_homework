@@ -1,6 +1,6 @@
 ### A. Given the following data structure:
 
-stops = [ 'Buchanan Street', 'Cowcaddens', 'St Georges Cross', 'Kelvinbridge', 'Hillhead', 'Kelvinhall', 'Partick', 'Govan', 'Pollock', 'Ibrox', 'Cessnock', 'Kinning Park', 'Shields Road' ]
+# stops = [ 'Buchanan Street', 'Cowcaddens', 'St Georges Cross', 'Kelvinbridge', 'Hillhead', 'Kelvinhall', 'Partick', 'Govan', 'Pollock', 'Ibrox', 'Cessnock', 'Kinning Park', 'Shields Road' ]
 
 # 1. Add 'St Enoch' to the start of the array
 # stops.unshift("St Enoch")
@@ -53,11 +53,11 @@ stops = [ 'Buchanan Street', 'Cowcaddens', 'St Georges Cross', 'Kelvinbridge', '
 my_hero = {:name => "Legolas", :race => "elf", :weapons => ["bow", "knife"]}
 
 # 1. Get the hero's name
-
+puts my_hero[:name]
 # 2. Get the hero's race
-
+puts my_hero[:race]
 # 3. Get the hero's first weapon
-
+puts my_hero[:weapons]
 # 4. Get the hero's second weapon
 
 # 5. Get the number of weapons the hero has
