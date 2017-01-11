@@ -3,7 +3,7 @@
 stops = [ 'Buchanan Street', 'Cowcaddens', 'St Georges Cross', 'Kelvinbridge', 'Hillhead', 'Kelvinhall', 'Partick', 'Govan', 'Pollock', 'Ibrox', 'Cessnock', 'Kinning Park', 'Shields Road' ]
 
 # 1. Add 'St Enoch' to the start of the array
-
+puts stops.unshift("St Enoch")
 # 2. Add 'West Street' to the end of the array
 
 # 3. Delete 'Pollock' from the array
