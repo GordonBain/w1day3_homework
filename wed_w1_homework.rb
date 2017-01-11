@@ -3,14 +3,21 @@
 stops = [ 'Buchanan Street', 'Cowcaddens', 'St Georges Cross', 'Kelvinbridge', 'Hillhead', 'Kelvinhall', 'Partick', 'Govan', 'Pollock', 'Ibrox', 'Cessnock', 'Kinning Park', 'Shields Road' ]
 
 # 1. Add 'St Enoch' to the start of the array
-puts stops.unshift("St Enoch")
-# 2. Add 'West Street' to the end of the array
+# stops.unshift("St Enoch")
+# puts stops.to_s
+
+# # 2. Add 'West Street' to the end of the array
+# stops.push("West Street")
+# puts stops.to_s
 
 # 3. Delete 'Pollock' from the array
-
+# stops.delete("Pollock")
+# puts stops.to_s
 # 4. Work out how many stops there are on the subway
 
 # 5. Return the second item from the array (Buchanan Street)
+stops.index(2)
+puts stops
 
 # 6. Return the last item (Shields Road) from the array
 
