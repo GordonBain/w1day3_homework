@@ -6,27 +6,46 @@ stops = [ 'Buchanan Street', 'Cowcaddens', 'St Georges Cross', 'Kelvinbridge', '
 # stops.unshift("St Enoch")
 # puts stops.to_s
 
+
 # # 2. Add 'West Street' to the end of the array
 # stops.push("West Street")
 # puts stops.to_s
 
+
 # 3. Delete 'Pollock' from the array
 # stops.delete("Pollock")
-# puts stops.to_s
+# puts stops
+
+
 # 4. Work out how many stops there are on the subway
+# puts stops.count
+
+
+#stops.count  
+#puts stops
+# WHY DOES THIS NOT WORK???  Because I'm asking it to count and then simply print the array?
+
 
 # 5. Return the second item from the array (Buchanan Street)
-stops.index(2)
-puts stops
+# puts stops.at(0)
+
 
 # 6. Return the last item (Shields Road) from the array
+# puts stops.last
+
 
 # 7. Work out the index position of 'Hillhead'
+# puts stops.rindex("Hillhead")
+
 
 # 8. Reverse the positions of the stops in the array
+# puts stops.reverse
+
 
 # 9. Print out all of the stops using a for loop
-
+# for name in stops
+#   puts name 
+# end
 
 
 ## B. Given the following data structure:
